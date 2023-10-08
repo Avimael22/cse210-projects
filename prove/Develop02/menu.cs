@@ -12,7 +12,8 @@ public class Menu
         
     }
 
-    public void SaveFile(){
+    public void SaveFile()
+    {
         using (StreamWriter outputFile = new StreamWriter(_file_Name)){
             foreach (string item in _saving_List){
                 outputFile.WriteLine(item);

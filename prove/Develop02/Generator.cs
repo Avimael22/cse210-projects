@@ -7,7 +7,8 @@ public class Prompt {
         "If I had one thing I could do over today, what would it be?"
      };
     
-    public void PromptGenerator(){
+    public void PromptGenerator()
+    {
         Random RandomGenerator = new Random();
         int index = RandomGenerator.Next(0, prompts.Count);
             Console.WriteLine(prompts[index]);

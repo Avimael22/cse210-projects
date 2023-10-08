@@ -43,7 +43,7 @@ class Program
 
             }
             if (answer == 4){
-                Console.WriteLine("enter the file name you wish to save it as: ");
+                Console.WriteLine("Enter the file name you wish to save it as: ");
                 Menu file = new Menu();
                 file._file_Name = Console.ReadLine();
                 file._saving_List.AddRange(MyList);
